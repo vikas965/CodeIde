@@ -1,6 +1,6 @@
 {
-  "short_name": "Sky-Notes",
-  "name": "A web Notepad",
+  "short_name": "CodeIDE",
+  "name": "A online code editor",
   "icons": [
     {
       "src": "favicon.ico",
