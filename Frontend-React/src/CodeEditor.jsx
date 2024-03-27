@@ -32,7 +32,7 @@ const CodeEditor = () => {
       console.log('Code:', code); // Log the code before sending the request
       console.log('Selected Language:', selectedLanguage); // Log the selected language before sending the request
       
-      const response = await axios.post('http://localhost:3001/run-code', { code, language: selectedLanguage });
+      const response = await axios.post('https://codeide-ir8y.onrender.com/run-code', { code, language: selectedLanguage });
       console.log('Response:', response.data); // Log the response after receiving it
       setOutput(response.data.output);
     } catch (error) {
